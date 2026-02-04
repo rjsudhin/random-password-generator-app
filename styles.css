@@ -97,6 +97,17 @@ h3 {
 }
 
 
+.output.visible-message {
+  border: solid;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  background-color: green;
+  color: white;
+  width: 120px;
+  text-align: center;
+  font-size: 1rem;
+}
 
 
 
