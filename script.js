@@ -1,6 +1,7 @@
 const generatorBtn = document.querySelector('.generator-btn')
 const inputEl = document.querySelector('#input-el')
 
+inputEl.value = '' // loads first time in emtpy
 
 generatorBtn.addEventListener('click', () => {
   generatingPassword()
